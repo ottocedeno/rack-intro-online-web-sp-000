@@ -4,4 +4,4 @@ my_server = Proc.new do
   [200, { 'Content-Type' => 'text/html'}, ['<em>Hello</em>']]
 end
 
-run_my_server
+run my_server
